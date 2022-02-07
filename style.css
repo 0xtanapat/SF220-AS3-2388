@@ -1,0 +1,35 @@
+body {
+  background-color: #d1f5ff;
+}
+
+.container {
+  padding: 0 64px;
+}
+
+.title {
+  background-color: #78e3fd;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+.links, .list {
+  text-transform: capitalize;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links > a {
+  margin: 0 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #78e3fd;
+  padding: 5px 0;
+}
